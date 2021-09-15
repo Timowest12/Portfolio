@@ -1,14 +1,21 @@
 h1,
-h2 {
-  margin: 0;
-  padding: 0;
-  border: 0;
+h3 {
+  padding: 0em;
+  margin: 0px;
 }
 html {
   background-color: rgb(18, 18, 105);
   color: white;
 
   font-family: "Roboto", sans-serif;
+}
+main {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style-type: none;
 }
 nav > ul {
   display: flex;
@@ -17,8 +24,13 @@ nav > ul {
   padding: 0px;
   justify-content: center;
 }
+hr {
+  background-color: rgb(78, 78, 78);
+  margin: 30px;
+
+  border-color: rgb(78, 78, 78);
+}
 nav > ul > li {
-  list-style-type: none;
   padding: 10px;
   font-size: 150%;
 
@@ -50,11 +62,20 @@ nav > ul > li {
   font-size: 350%;
 }
 .sideGradient {
-  padding: 15vh;
-  background: radial-gradient(#e66465, rgb(18, 18, 105));
-  overflow: visible;
+  width: 150px;
+  height: 150px;
+  background: whitesmoke;
   position: absolute;
   border-radius: 50%;
-  background-size: 50%;
-  left: -7vh;
+  filter: blur(40px);
+  left: -75px;
+}
+.mainTextSection {
+  display: flex;
+  justify-content: center;
+}
+.mainText {
+  font-size: 150%;
+  text-align: center;
+  color: rgb(175, 175, 175);
 }
