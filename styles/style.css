@@ -1,5 +1,6 @@
 h1,
-h3 {
+h3,
+ul {
   padding: 0em;
   margin: 0px;
 }
@@ -61,14 +62,21 @@ nav > ul > li {
   color: rgb(108, 108, 247);
   font-size: 350%;
 }
-.sideGradient {
+.sideGradientleft,
+.sideGradientright {
   width: 150px;
   height: 150px;
   background: whitesmoke;
   position: absolute;
   border-radius: 50%;
   filter: blur(40px);
+}
+.sideGradientleft {
   left: -75px;
+}
+.sideGradientright {
+  right: -75px;
+  bottom: -50px;
 }
 .mainTextSection {
   display: flex;
@@ -78,4 +86,30 @@ nav > ul > li {
   font-size: 150%;
   text-align: center;
   color: rgb(175, 175, 175);
+}
+.lists {
+  display: flex;
+  flex-flow: wrap;
+  padding: 0 40px;
+}
+.lists > div {
+  width: 49%;
+  margin: 1px;
+
+  text-align: center;
+  text-align: left;
+}
+.listhead {
+  color: rgb(126, 126, 241);
+  margin-bottom: 20px !important;
+}
+.lists > div > ul > li {
+  margin: 8px;
+}
+.socials {
+  padding: 0px 20px;
+  display: flex;
+
+  justify-content: space-evenly;
+  font-size: 150%;
 }
