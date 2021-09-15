@@ -7,12 +7,21 @@ html {
 nav > ul {
   display: flex;
   justify-content: space-between;
+
+  padding: 0px;
+  justify-content: center;
 }
 nav > ul > li {
   list-style-type: none;
   padding: 10px;
   font-size: 150%;
+
+  vertical-align: middle;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
 }
 .navIcon {
   margin-left: auto;
+  font-size: 300%;
 }
