@@ -25,3 +25,11 @@ nav > ul > li {
   margin-left: auto;
   font-size: 300%;
 }
+.heads {
+  display: flex;
+  flex-direction: column;
+}
+.heads > * {
+  text-align: center;
+  font-size: 250%;
+}
