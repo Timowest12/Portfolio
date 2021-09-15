@@ -1,3 +1,9 @@
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 html {
   background-color: rgb(18, 18, 105);
   color: white;
@@ -28,8 +34,27 @@ nav > ul > li {
 .heads {
   display: flex;
   flex-direction: column;
+  min-height: 50px;
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+  min-height: 30vh;
 }
 .heads > * {
   text-align: center;
   font-size: 250%;
+}
+.nameHead {
+  font-weight: bolder;
+  color: rgb(108, 108, 247);
+  font-size: 350%;
+}
+.sideGradient {
+  padding: 15vh;
+  background: radial-gradient(#e66465, rgb(18, 18, 105));
+  overflow: visible;
+  position: absolute;
+  border-radius: 50%;
+  background-size: 50%;
+  left: -7vh;
 }
