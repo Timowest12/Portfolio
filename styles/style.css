@@ -1,0 +1,18 @@
+html {
+  background-color: rgb(18, 18, 105);
+  color: white;
+
+  font-family: "Roboto", sans-serif;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul > li {
+  list-style-type: none;
+  padding: 10px;
+  font-size: 150%;
+}
+.navIcon {
+  margin-left: auto;
+}
