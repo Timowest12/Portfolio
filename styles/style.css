@@ -10,7 +10,9 @@ html {
   color: white;
   font-family: "Roboto", sans-serif;
 }
-
+.content {
+  padding: 10px;
+}
 main {
   max-width: 400px;
   margin-left: auto;
@@ -46,10 +48,10 @@ nav > ul > li {
   flex-direction: column;
 }
 .navIcon > div {
-  width: 55px;
+  width: 35px;
   height: 2px;
   background-color: white;
-  margin: 5px 0;
+  margin: 4px 0;
   border-radius: 4px;
 }
 
@@ -97,9 +99,17 @@ nav > ul > li {
 }
 
 .mainText {
-  font-size: 150%;
+  font-size: 20px;
+  font-weight: 400;
   text-align: center;
   color: rgb(175, 175, 175);
+  line-height: 28px;
+}
+.downArrow {
+  fill: none;
+  stroke: #c4c4c4;
+  width: 20px;
+  height: 25px;
 }
 
 .lists {
@@ -115,13 +125,12 @@ nav > ul > li {
   text-align: left;
 }
 
+.lists > div > ul > li {
+  margin-bottom: 8px;
+}
 .listhead {
   color: rgb(126, 126, 241);
-  margin-bottom: 20px !important;
-}
-
-.lists > div > ul > li {
-  margin: 8px;
+  padding-bottom: 20px;
 }
 
 .socials {
@@ -129,4 +138,19 @@ nav > ul > li {
   display: flex;
   justify-content: space-evenly;
   font-size: 150%;
+}
+.workBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #a2a3ae;
+  margin: 20px 0;
+  text-decoration: none;
+}
+.workTxt {
+  display: inline;
+  font-weight: 0.2;
+}
+.workBox > * {
+  padding: 5px;
 }
