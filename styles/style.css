@@ -70,6 +70,10 @@ nav > ul > li {
   text-align: center;
   font-size: 250%;
 }
+.cardTxt {
+  text-align: center;
+  font-size: 250%;
+}
 
 .nameHead {
   font-weight: bolder;
@@ -162,4 +166,23 @@ nav > ul > li {
 
 .workBox > * {
   padding: 5px;
+}
+.imgplaceholder {
+  background-color: white;
+  height: 235px;
+}
+.cardContainer {
+  display: grid;
+  grid-gap: 20px;
+}
+.cardContainer > div {
+  display: flex;
+  flex-direction: column;
+}
+.cardContainer > div > * {
+  display: flex;
+}
+.skillsbar {
+  display: flex;
+  justify-content: space-evenly;
 }
