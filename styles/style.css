@@ -6,7 +6,7 @@ ul {
 }
 
 html {
-  background-color: rgb(15, 15, 58);
+  background-color: #191765;
   color: white;
   font-family: "Roboto", sans-serif;
 }
@@ -44,7 +44,7 @@ nav > ul > li {
 
 .navIcon {
   margin-left: auto;
-  font-size: 300%;
+  font-size: 170%;
 }
 
 .heads {
