@@ -43,7 +43,6 @@ nav > ul > li {
   vertical-align: middle;
   display: flex;
   align-items: center; /* Vertical center alignment */
-  justify-content: center; /* Horizontal center alignment */
 }
 
 .navIcon {
@@ -78,8 +77,8 @@ nav > ul > li {
   font-size: 350%;
 }
 
-.sideGradientleft,
-.sideGradientright {
+.sideGradientleft {
+  left: -75px;
   width: 150px;
   height: 150px;
   background: whitesmoke;
@@ -88,11 +87,13 @@ nav > ul > li {
   filter: blur(40px);
 }
 
-.sideGradientleft {
-  left: -75px;
-}
-
 .sideGradientright {
+  width: 150px;
+  height: 150px;
+  background: whitesmoke;
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
   right: -75px;
   bottom: -50px;
 }
@@ -157,7 +158,6 @@ nav > ul > li {
 
 .workTxt {
   display: inline;
-  font-weight: 0.2;
 }
 
 .workBox > * {
