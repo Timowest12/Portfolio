@@ -8,6 +8,7 @@
 
 This is my portfolio that is made as a training excercise to as accurately as possible recreate a design mockup in HTML & CSS. The design was recreated from Figma.
 This is the mobile version of my portfolio.
+I mainly used flexbox for the alignment of elements, and SVG and CSS for the icons
 
 ## Built With
 
