@@ -9,6 +9,7 @@ html {
   background-color: #191765;
   color: white;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 .content {
@@ -204,6 +205,9 @@ nav > ul > li {
   justify-content: space-evenly;
   font-size: 150%;
 }
+.socials > li > * {
+  color: white;
+}
 
 .workBox {
   display: flex;
@@ -264,4 +268,7 @@ nav > ul > li {
 }
 .imgplaceholder {
   margin-bottom: 15px;
+}
+#projectCards {
+  margin-top: 45px;
 }
