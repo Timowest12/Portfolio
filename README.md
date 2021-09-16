@@ -6,7 +6,8 @@
 
 ![screenshot](./app_screenshot.png)
 
-This is my Portfolio
+This is my portfolio that is made as a training excercise to as accurately as possible recreate a design mockup in HTML & CSS. The design was recreated from Figma.
+This is the mobile version of my portfolio.
 
 ## Built With
 
