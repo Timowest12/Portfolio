@@ -104,14 +104,48 @@ nav > ul > li {
   bottom: -50px;
 }
 .longGradient {
+  width: 40px;
+  height: 500px;
+  background: whitesmoke;
+  position: absolute;
+  border-radius: 10%;
+  filter: blur(35px);
+  left: 50px;
+  top: 1300px;
+  transform: rotate(-40deg);
+}
+.longGradient2 {
+  width: 40px;
+  height: 500px;
+  background: whitesmoke;
+  position: absolute;
+  border-radius: 10%;
+  filter: blur(55px);
+  right: 50px;
+  top: 2000px;
+  transform: rotate(40deg);
+}
+.longGradient3 {
   width: 70px;
   height: 500px;
   background: whitesmoke;
   position: absolute;
   border-radius: 10%;
-  filter: blur(30px);
+  filter: blur(85px);
   left: 50px;
-  transform: rotate(-30deg);
+  top: 2700px;
+  transform: rotate(90deg);
+}
+.longGradient4 {
+  width: 60px;
+  height: 500px;
+  background: whitesmoke;
+  position: absolute;
+  border-radius: 10%;
+  filter: blur(25px);
+  right: -110px;
+  top: 3550px;
+  transform: rotate(-40deg);
 }
 
 .mainTextSection {
