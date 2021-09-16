@@ -1,59 +1,41 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+[](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
-> One paragraph statement about the project.
+> Mobile portfolio page
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This is my portfolio that is made as a training excercise to as accurately as possible recreate a design mockup in HTML & CSS. The design was recreated from Figma.
+This is the mobile version of my portfolio.
+I mainly used flexbox for the alignment of elements, and SVG and CSS for the icons
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Nodejs
+- NPM
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
+If you want to use this portfolio as a template you are free to do so, Just follow the instruction below
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+download it directly by zip, open the index file in a text editor and you can change the content to match your own.
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Timowest12)
+- Twitter: [@twitterhandle](https://twitter.com/Timo61060367)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/timo-wester-6a0282a7/)
 
 ## 🤝 Contributing
 
@@ -64,12 +46,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

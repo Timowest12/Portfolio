@@ -1,0 +1,165 @@
+h1,
+h3,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #191765;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  padding: 10px;
+}
+
+main {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+hr {
+  background-color: rgb(78, 78, 78);
+  margin: 30px;
+  border-color: rgb(78, 78, 78);
+}
+
+nav > ul > li {
+  padding: 10px;
+  font-size: 150%;
+  vertical-align: middle;
+  display: flex;
+  align-items: center; /* Vertical center alignment */
+}
+
+.navIcon {
+  display: flex;
+  flex-direction: column;
+}
+
+.navIcon > div {
+  width: 35px;
+  height: 2px;
+  background-color: white;
+  margin: 4px 0;
+  border-radius: 4px;
+}
+
+.heads {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 30vh;
+}
+
+.heads > * {
+  text-align: center;
+  font-size: 250%;
+}
+
+.nameHead {
+  font-weight: bolder;
+  color: rgb(108, 108, 247);
+  font-size: 350%;
+}
+
+.sideGradientleft {
+  left: -75px;
+  width: 150px;
+  height: 150px;
+  background: whitesmoke;
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+}
+
+.sideGradientright {
+  width: 150px;
+  height: 150px;
+  background: whitesmoke;
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  right: -75px;
+  bottom: -50px;
+}
+
+.mainTextSection {
+  display: flex;
+  justify-content: center;
+}
+
+.mainText {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(175, 175, 175);
+  line-height: 28px;
+}
+
+.downArrow {
+  fill: none;
+  stroke: #c4c4c4;
+  width: 20px;
+  height: 25px;
+}
+
+.lists {
+  display: flex;
+  flex-flow: wrap;
+  padding: 0 40px;
+}
+
+.lists > div {
+  width: 49%;
+  margin: 1px;
+  text-align: center;
+  text-align: left;
+}
+
+.lists > div > ul > li {
+  margin-bottom: 8px;
+}
+
+.listhead {
+  color: rgb(126, 126, 241);
+  padding-bottom: 20px;
+}
+
+.socials {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 150%;
+}
+
+.workBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #a2a3ae;
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+.workTxt {
+  display: inline;
+}
+
+.workBox > * {
+  padding: 5px;
+}
