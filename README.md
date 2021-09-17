@@ -6,9 +6,9 @@
 
 ![screenshot](./app_screenshot.png)
 
-This is my portfolio that is made as a training excercise to as accurately as possible recreate a design mockup in HTML & CSS. The design was recreated from Figma.
+This is the portfolio that I made as a training exercise to create a portfolio page based on a mockup created by Figma.
 This is the mobile version of my portfolio.
-I mainly used flexbox for the alignment of elements, and SVG and CSS for the icons
+I mainly used flexbox and CSS grid to align elements and SVG and CSS for the icons.
 
 ## Built With
 
@@ -23,11 +23,11 @@ I mainly used flexbox for the alignment of elements, and SVG and CSS for the ico
 
 ## Getting Started
 
-If you want to use this portfolio as a template you are free to do so, Just follow the instruction below
+If you want to use this portfolio as a template, you can do so; follow the instructions below.
 
 ### Usage
 
-download it directly by zip, open the index file in a text editor and you can change the content to match your own.
+Download it directly by ZIP, open the index file in a text editor, and you can change the content to match your own.
 
 ## Authors
 
