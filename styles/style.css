@@ -280,6 +280,15 @@ nav > ul > li {
   padding: 15px;
   color: white;
   margin: 15px 0;
+  margin: 2px;
+}
+.projectbtn:hover {
+  border: 2px solid rgb(101, 101, 230);
+  margin: 0px;
+}
+.projectbtn:active {
+  border: 1px solid rgb(101, 101, 230);
+  margin: 1px;
 }
 
 #projectCards {
