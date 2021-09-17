@@ -9,6 +9,7 @@ html {
   background-color: #191765;
   color: white;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 .content {
@@ -71,6 +72,13 @@ nav > ul > li {
   font-size: 250%;
 }
 
+.cardTxt {
+  font-weight: 500;
+  margin: 30px 0;
+  text-align: center;
+  font-size: 250%;
+}
+
 .nameHead {
   font-weight: bolder;
   color: rgb(108, 108, 247);
@@ -98,6 +106,54 @@ nav > ul > li {
   bottom: -50px;
 }
 
+.longGradient {
+  width: 40px;
+  height: 500px;
+  background: whitesmoke;
+  position: absolute;
+  border-radius: 10%;
+  filter: blur(35px);
+  left: 50px;
+  top: 1300px;
+  transform: rotate(-40deg);
+}
+
+.longGradient2 {
+  width: 40px;
+  height: 500px;
+  background: whitesmoke;
+  position: absolute;
+  border-radius: 10%;
+  filter: blur(55px);
+  right: 50px;
+  top: 2000px;
+  transform: rotate(40deg);
+}
+
+.longGradient3 {
+  width: 70px;
+  height: 500px;
+  background: whitesmoke;
+  position: absolute;
+  border-radius: 10%;
+  filter: blur(85px);
+  left: 50px;
+  top: 2700px;
+  transform: rotate(90deg);
+}
+
+.longGradient4 {
+  width: 60px;
+  height: 500px;
+  background: whitesmoke;
+  position: absolute;
+  border-radius: 10%;
+  filter: blur(25px);
+  right: -110px;
+  top: 3550px;
+  transform: rotate(-40deg);
+}
+
 .mainTextSection {
   display: flex;
   justify-content: center;
@@ -111,11 +167,36 @@ nav > ul > li {
   line-height: 28px;
 }
 
+.cardText {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+}
+
 .downArrow {
   fill: none;
   stroke: #c4c4c4;
   width: 20px;
   height: 25px;
+}
+
+.skillsbar {
+  display: flex;
+  margin: 20px 0;
+  height: 40px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skillsbar > li {
+  line-height: 40px;
+  flex-basis: 25%;
+  text-align: center;
+  border-right: 1px solid #555;
 }
 
 .lists {
@@ -124,14 +205,14 @@ nav > ul > li {
   padding: 0 40px;
 }
 
-.lists > div {
+.lists > li {
   width: 49%;
   margin: 1px;
   text-align: center;
   text-align: left;
 }
 
-.lists > div > ul > li {
+.lists > li > ul > li {
   margin-bottom: 8px;
 }
 
@@ -156,10 +237,63 @@ nav > ul > li {
   text-decoration: none;
 }
 
+.workBox > * {
+  padding: 5px;
+}
+
+.socials > li > * {
+  color: white;
+}
+
 .workTxt {
   display: inline;
 }
 
-.workBox > * {
-  padding: 5px;
+.imgplaceholder {
+  background-image: url("../assets/images/placeholder.png");
+  height: 235px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cardContainer {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.cardContainer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContainer > div > * {
+  display: flex;
+}
+
+.skillsbar > li:nth-last-child(1) {
+  border: 0;
+}
+
+.projectbtn {
+  font-family: "Inter", sans-serif;
+  background-color: #7d73fc;
+  border: 0;
+  padding: 15px;
+  color: white;
+  margin: 15px 0;
+  margin: 2px;
+}
+
+.projectbtn:hover {
+  border: 2px solid rgb(101, 101, 230);
+  margin: 0;
+}
+
+.projectbtn:active {
+  border: 1px solid rgb(101, 101, 230);
+  margin: 1px;
+}
+
+#projectCards {
+  margin-top: 45px;
 }
