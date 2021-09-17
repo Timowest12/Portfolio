@@ -250,8 +250,9 @@ nav > ul > li {
 }
 
 .imgplaceholder {
-  background-color: white;
+  background-image: url("../assets/images/placeholder.png");
   height: 235px;
+  width: 100%;
   margin-bottom: 15px;
 }
 
@@ -282,10 +283,12 @@ nav > ul > li {
   margin: 15px 0;
   margin: 2px;
 }
+
 .projectbtn:hover {
   border: 2px solid rgb(101, 101, 230);
-  margin: 0px;
+  margin: 0;
 }
+
 .projectbtn:active {
   border: 1px solid rgb(101, 101, 230);
   margin: 1px;
