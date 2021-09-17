@@ -205,14 +205,14 @@ nav > ul > li {
   padding: 0 40px;
 }
 
-.lists > div {
+.lists > li {
   width: 49%;
   margin: 1px;
   text-align: center;
   text-align: left;
 }
 
-.lists > div > ul > li {
+.lists > li > ul > li {
   margin-bottom: 8px;
 }
 
