@@ -19,7 +19,7 @@ I mainly used flexbox for the alignment of elements, and SVG and CSS for the ico
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://timowest12.github.io/Portfolio/)
 
 ## Getting Started
 
