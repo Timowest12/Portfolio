@@ -322,3 +322,12 @@ form > textarea {
   flex-direction: row;
   justify-content: center;
 }
+footer {
+  margin-top: 60px;
+}
+.info > * {
+  text-align: center;
+}
+.info > p {
+  line-height: 180%;
+}
