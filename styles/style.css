@@ -67,6 +67,12 @@ nav > ul > li {
   min-height: 30vh;
 }
 
+form > * {
+  padding-left: 10px;
+  margin: 12px 0;
+  font-size: 15px;
+}
+
 .heads > * {
   text-align: center;
   font-size: 250%;
@@ -96,14 +102,12 @@ nav > ul > li {
 }
 
 .sideGradientright {
-  width: 150px;
-  height: 150px;
-  background: whitesmoke;
+  width: 86px;
+  height: 168px;
+  background-image: url("/assets/images/left1.png");
   position: absolute;
-  border-radius: 50%;
-  filter: blur(40px);
-  right: -75px;
-  bottom: -50px;
+  right: 0;
+  top: 50px;
 }
 
 .longGradient {
@@ -119,15 +123,12 @@ nav > ul > li {
 }
 
 .longGradient2 {
-  width: 40px;
-  height: 500px;
-  background: whitesmoke;
+  width: 179px;
+  height: 358px;
+  background-image: url("/assets/images/left2.png");
   position: absolute;
-  border-radius: 10%;
-  filter: blur(55px);
-  right: 50px;
+  right: 0;
   top: 2000px;
-  transform: rotate(40deg);
 }
 
 .longGradient3 {
@@ -143,15 +144,12 @@ nav > ul > li {
 }
 
 .longGradient4 {
-  width: 60px;
-  height: 500px;
-  background: whitesmoke;
+  width: 193px;
+  height: 296px;
+  background-image: url("/assets/images/right3.png");
   position: absolute;
-  border-radius: 10%;
-  filter: blur(25px);
-  right: -110px;
+  right: 0;
   top: 3550px;
-  transform: rotate(-40deg);
 }
 
 .mainTextSection {
@@ -241,6 +239,10 @@ nav > ul > li {
   padding: 5px;
 }
 
+.info > * {
+  text-align: center;
+}
+
 .socials > li > * {
   color: white;
 }
@@ -296,4 +298,31 @@ nav > ul > li {
 
 #projectCards {
   margin-top: 45px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > input {
+  height: 48px;
+}
+
+form > textarea {
+  padding: 10px;
+}
+
+.btnwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+.info > p {
+  line-height: 140%;
 }
