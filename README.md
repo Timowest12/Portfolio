@@ -31,6 +31,7 @@ If you want to use this portfolio as a template, you can do so; follow the instr
 
 Download it directly by ZIP, open the index file in a text editor, and you can change the content to match your own.
 If you would like to add your own projects, you can click on the button that says 'code' on the top of this repository, and clone it to your local machine. Or fork this repo and use it on Github.
+After downloading you can directly open the index.html file in any kind of text editor to make adjustments. Or open in a web browser to view your new site.
 
 A pull request would be accepted if you can add nice fueteres, or have any othe good idea.
 
