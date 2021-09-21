@@ -67,6 +67,12 @@ nav > ul > li {
   min-height: 30vh;
 }
 
+form > * {
+  padding-left: 10px;
+  margin: 12px 0;
+  font-size: 15px;
+}
+
 .heads > * {
   text-align: center;
   font-size: 250%;
@@ -241,6 +247,10 @@ nav > ul > li {
   padding: 5px;
 }
 
+.info > * {
+  text-align: center;
+}
+
 .socials > li > * {
   color: white;
 }
@@ -303,12 +313,6 @@ form {
   flex-direction: column;
 }
 
-form > * {
-  padding-left: 10px;
-  margin: 12px 0;
-  font-size: 15px;
-}
-
 form > input {
   height: 48px;
 }
@@ -322,12 +326,11 @@ form > textarea {
   flex-direction: row;
   justify-content: center;
 }
+
 footer {
   margin-top: 60px;
 }
-.info > * {
-  text-align: center;
-}
+
 .info > p {
-  line-height: 180%;
+  line-height: 140%;
 }
