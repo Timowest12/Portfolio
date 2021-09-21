@@ -102,14 +102,12 @@ form > * {
 }
 
 .sideGradientright {
-  width: 150px;
-  height: 150px;
-  background: whitesmoke;
+  width: 86px;
+  height: 168px;
+  background-image: url("/assets/images/left1.png");
   position: absolute;
-  border-radius: 50%;
-  filter: blur(40px);
-  right: -75px;
-  bottom: -50px;
+  right: 0px;
+  top: 50px;
 }
 
 .longGradient {
@@ -125,15 +123,12 @@ form > * {
 }
 
 .longGradient2 {
-  width: 40px;
-  height: 500px;
-  background: whitesmoke;
+  width: 179px;
+  height: 358px;
+  background-image: url("/assets/images/left2.png");
   position: absolute;
-  border-radius: 10%;
-  filter: blur(55px);
-  right: 50px;
+  right: 0px;
   top: 2000px;
-  transform: rotate(40deg);
 }
 
 .longGradient3 {
@@ -149,17 +144,14 @@ form > * {
 }
 
 .longGradient4 {
-  width: 60px;
-  height: 500px;
-  background: whitesmoke;
+  width: 193px;
+  height: 296px;
+  background-image: url("/assets/images/right3.png");
   position: absolute;
-  border-radius: 10%;
-  filter: blur(25px);
-  right: -110px;
-  top: 3550px;
-  transform: rotate(-40deg);
-}
 
+  right: 0px;
+  top: 3550px;
+}
 .mainTextSection {
   display: flex;
   justify-content: center;

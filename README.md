@@ -10,6 +10,8 @@ This is the portfolio that I made as a training exercise to create a portfolio p
 This is the mobile version of my portfolio.
 I mainly used flexbox and CSS grid to align elements and SVG and CSS for the icons.
 
+The Portfolio is a single page website, and includes a portfolio showcase and a contact form. When the contact form is submitted,You will automatically receive the data in your E-mail adress.
+
 ## Built With
 
 - HTML
@@ -28,6 +30,9 @@ If you want to use this portfolio as a template, you can do so; follow the instr
 ### Usage
 
 Download it directly by ZIP, open the index file in a text editor, and you can change the content to match your own.
+If you would like to add your own projects, you can click on the button that says 'code' on the top of this repository, and clone it to your local machine. Or fork this repo and use it on Github.
+
+A pull request would be accepted if you can add nice fueteres, or have any othe good idea.
 
 ## Authors
 
