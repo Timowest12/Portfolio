@@ -429,9 +429,7 @@ footer {
   .small {
     display: none;
   }
-  .lists > li {
-    width: 33%;
-  }
+
   .projectCards {
     margin: 0 50px;
   }
@@ -469,6 +467,26 @@ footer {
     max-width: 350px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .lists > li {
+    width: inherit;
+  }
+  .lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .longGradient {
+    top: 800px;
+  }
+  .longGradient2 {
+    top: 1200px;
+  }
+  .longGradient3 {
+    top: 1700px;
+  }
+  .longGradient4 {
+    top: 2200px;
   }
 }
 @media only screen and (max-width: 500px) {
