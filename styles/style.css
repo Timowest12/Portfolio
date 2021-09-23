@@ -272,6 +272,7 @@ a:link {
 }
 .workbtn > * {
   margin: 0 5px;
+  color: #b3bac5;
 }
 .middlesocialwork {
   display: flex;
