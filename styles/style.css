@@ -11,13 +11,26 @@ html {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
-
+.heads {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headertxt {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lists {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .content {
   padding: 10px;
 }
 
 main {
-  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -44,6 +57,14 @@ nav > ul > li {
   vertical-align: middle;
   display: flex;
   align-items: center; /* Vertical center alignment */
+}
+.navCollapse {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navCollapse > .navName {
+  margin-right: 20px;
 }
 
 .navIcon {
@@ -200,12 +221,12 @@ form > * {
 .lists {
   display: flex;
   flex-flow: wrap;
-  padding: 0 40px;
+  max-width: 500px;
 }
 
 .lists > li {
-  width: 49%;
-  margin: 1px;
+  width: 50%;
+
   text-align: center;
   text-align: left;
 }
@@ -218,15 +239,45 @@ form > * {
   color: rgb(126, 126, 241);
   padding-bottom: 20px;
 }
+.socialsandworkbutton {
+  margin: 0 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.workbtn {
+  display: flex;
+  flex-direction: row;
+}
+.workbtn > * {
+  margin: 0 5px;
+}
+.middlesocialwork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.middlesocialwork > * {
+  margin: 10px 0;
+}
 
 .socials {
-  padding: 0 20px;
   display: flex;
   justify-content: space-evenly;
   font-size: 150%;
+  width: 400px;
+}
+.socials > * {
+  padding: 0 10px;
+}
+.workBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.workBox {
+.workBox > * {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -237,6 +288,11 @@ form > * {
 
 .workBox > * {
   padding: 5px;
+}
+.info {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 }
 
 .info > * {
@@ -257,18 +313,26 @@ form > * {
   width: 100%;
   margin-bottom: 15px;
 }
+.leftcard {
+  width: 100%;
+}
 
 .cardContainer {
   display: grid;
   grid-gap: 20px;
 }
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
-.cardContainer > div {
+.cardContainer > div > div {
   display: flex;
   flex-direction: column;
 }
 
-.cardContainer > div > * {
+.cardContainer > div > div > * {
   display: flex;
 }
 
@@ -301,6 +365,9 @@ form > * {
 }
 
 form {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
 }
@@ -325,4 +392,60 @@ footer {
 
 .info > p {
   line-height: 140%;
+}
+.big {
+  display: none;
+}
+@media only screen and (min-width: 700px) {
+  .big {
+    display: inherit;
+  }
+  .small {
+    display: none;
+  }
+  .lists > li {
+    width: 33%;
+  }
+  .cardContainer {
+    margin: 0 50px;
+  }
+  .card:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  .card {
+    flex-direction: row;
+  }
+  .card > div {
+    padding: 20px;
+  }
+  .imgplaceholder {
+    height: 100%;
+  }
+  .cardTxt {
+    margin: 0;
+  }
+  .cardText {
+    margin: 0;
+  }
+  .leftcard {
+    width: 60%;
+  }
+  .rightcard {
+    width: 40%;
+  }
+  .middlesocialwork > * {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .content {
+    width: 100%;
+    padding: 0;
+  }
+  .socials {
+    width: 100%;
+  }
+  .socials > * {
+    padding: 0;
+  }
 }
