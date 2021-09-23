@@ -10,21 +10,32 @@ html {
   color: white;
   font-family: "Roboto", sans-serif;
 }
+
 .heads {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 30vh;
 }
+
 .headertxt {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .lists {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-flow: wrap;
 }
+
 .content {
   padding: 10px;
 }
@@ -57,11 +68,13 @@ nav > ul > li {
   display: flex;
   align-items: center; /* Vertical center alignment */
 }
+
 .navCollapse {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .navCollapse > .navName {
   margin-right: 20px;
 }
@@ -77,14 +90,6 @@ nav > ul > li {
   background-color: white;
   margin: 4px 0;
   border-radius: 4px;
-}
-
-.heads {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  min-height: 30vh;
 }
 
 form > * {
@@ -129,6 +134,7 @@ form > * {
   right: 0;
   top: 50px;
 }
+
 .sideGradientrightfull {
   width: 226px;
   height: 226px;
@@ -138,6 +144,7 @@ form > * {
   top: 300px;
   background-size: cover;
 }
+
 .sideGradientleftfull {
   width: 184px;
   height: 184px;
@@ -147,6 +154,7 @@ form > * {
   top: 100px;
   background-size: cover;
 }
+
 .longGradient {
   width: 40px;
   height: 500px;
@@ -234,15 +242,8 @@ form > * {
   border-right: 1px solid #555;
 }
 
-.lists {
-  display: flex;
-  flex-flow: wrap;
-  max-width: 500px;
-}
-
 .lists > li {
   width: 50%;
-
   text-align: center;
   text-align: left;
 }
@@ -255,6 +256,7 @@ form > * {
   color: rgb(126, 126, 241);
   padding-bottom: 20px;
 }
+
 .socialsandworkbutton {
   margin: 0 20px;
   width: 100%;
@@ -262,22 +264,27 @@ form > * {
   flex-direction: row;
   justify-content: space-around;
 }
+
 a:link {
   text-decoration: none;
 }
+
 .workbtn {
   display: flex;
   flex-direction: row;
 }
+
 .workbtn > * {
   margin: 0 5px;
   color: #b3bac5;
 }
+
 .middlesocialwork {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .middlesocialwork > * {
   margin: 10px 0;
 }
@@ -288,9 +295,11 @@ a:link {
   font-size: 150%;
   width: 400px;
 }
+
 .socials > * {
   padding: 0 10px;
 }
+
 .workBox {
   display: flex;
   flex-direction: row;
@@ -304,11 +313,9 @@ a:link {
   color: #a2a3ae;
   margin: 20px 0;
   text-decoration: none;
-}
-
-.workBox > * {
   padding: 5px;
 }
+
 .info {
   margin-left: auto;
   margin-right: auto;
@@ -333,6 +340,7 @@ a:link {
   width: 100%;
   margin-bottom: 15px;
 }
+
 .leftcard {
   width: 100%;
 }
@@ -341,6 +349,7 @@ a:link {
   display: grid;
   grid-gap: 20px;
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -413,18 +422,22 @@ footer {
 .info > p {
   line-height: 140%;
 }
+
 .big {
   display: none;
 }
+
 .bottombar {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 @media only screen and (min-width: 700px) {
   .big {
     display: inherit;
   }
+
   .small {
     display: none;
   }
@@ -432,75 +445,96 @@ footer {
   .projectCards {
     margin: 0 50px;
   }
-  .card:nth-child(odd) {
-    flex-direction: row-reverse;
-  }
+
   .card {
     flex-direction: row;
   }
+
+  .card:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
   .card > div {
     padding: 20px;
   }
+
   .imgplaceholder {
     height: 100%;
   }
+
   .cardTxt {
     margin: 0;
   }
+
   .cardText {
     margin: 0;
   }
+
   .leftcard {
     width: 60%;
   }
+
   .rightcard {
     width: 40%;
   }
+
   .middlesocialwork > * {
     margin: 0;
   }
+
   .recent {
     margin-left: 20px;
   }
+
   .listshr {
     max-width: 350px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .lists > li {
     width: inherit;
   }
+
   .lists {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
+
   .longGradient {
     top: 800px;
   }
+
   .longGradient2 {
     top: 1200px;
   }
+
   .longGradient3 {
     top: 1700px;
   }
+
   .longGradient4 {
     top: 2200px;
   }
 }
+
 @media only screen and (max-width: 450px) {
   .socials > * {
     padding: 0;
   }
+
   html {
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .sideGradientrightfull {
-    right: 0px;
+    right: 0;
   }
+
   .sideGradientleftfull {
-    left: 0px;
+    left: 0;
   }
 }
