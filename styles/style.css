@@ -9,7 +9,6 @@ html {
   background-color: #191765;
   color: white;
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
 }
 .heads {
   max-width: 800px;
@@ -489,13 +488,12 @@ footer {
     top: 2200px;
   }
 }
-@media only screen and (max-width: 500px) {
-  .content {
-  }
-  .socials {
-  }
+@media only screen and (max-width: 450px) {
   .socials > * {
     padding: 0;
+  }
+  html {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 900px) {
