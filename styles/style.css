@@ -81,9 +81,9 @@ nav > ul > li {
 }
 
 .navName:hover {
-    font-size: 20px;
-    line-height: 22px;
-    transform: rotate(180deg);
+  font-size: 20px;
+  line-height: 22px;
+  transform: rotate(180deg);
 }
 
 .navIcon {
@@ -121,10 +121,11 @@ form > * {
   font-weight: bolder;
   color: rgb(108, 108, 247);
   font-size: 350%;
+  transition: 2s;
 }
+
 .nameHead:hover {
-  transition: width 2s, height 2s, color 2s, transform 2s;
-  transform: scale(200%);
+  transform: scale(2);
   color: white;
 }
 
@@ -223,6 +224,7 @@ form > * {
   animation-duration: 3s;
   animation-name: slidein;
 }
+
 @keyframes slidein {
   from {
     margin-top: 100%;
