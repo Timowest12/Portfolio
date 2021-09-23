@@ -213,6 +213,17 @@ form > * {
   text-align: center;
   color: rgb(175, 175, 175);
   line-height: 28px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
 }
 
 .cardText {
