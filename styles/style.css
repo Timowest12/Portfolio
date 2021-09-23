@@ -115,6 +115,11 @@ form > * {
   color: rgb(108, 108, 247);
   font-size: 350%;
 }
+.nameHead:hover {
+  transition: width 2s, height 2s, color 2s, transform 2s;
+  transform: scale(200%);
+  color: white;
+}
 
 .sideGradientleft {
   left: -75px;
