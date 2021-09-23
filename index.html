@@ -36,13 +36,13 @@
             ><span class="big">Portfolio</span>
           </li>
           <ul class="navCollapse">
-            <li class="navName">
+            <li class="navName big">
               <span class="big">John doe</span
-              ><span class="small">Portfolio</span>
+              ><span class="small big">Portfolio</span>
             </li>
-            <li class="navName">About</li>
-            <li class="navName">contact</li>
-            <li class="navIcon">
+            <li class="navName big">About</li>
+            <li class="navName big">contact</li>
+            <li class="navIcon small">
               <div></div>
               <div></div>
               <div></div>
@@ -56,7 +56,7 @@
         <div class="heads">
           <h1 class="nameHead">Timo Wester</h1>
           <h3 class="jobHead">software developer</h3>
-          <div class="sideGradientleft"></div>
+          <div class="sideGradientleft small"></div>
         </div>
 
         <div class="headertxt">
@@ -98,11 +98,12 @@
             </ul>
           </li>
         </ul>
-        <hr />
-
-        <div class="sideGradientright"></div>
+        <hr class="listshr" />
+        <div class="sideGradientrightfull big"></div>
+        <div class="sideGradientleftfull big"></div>
+        <div class="sideGradientright small"></div>
         <div class="socialsandworkbutton">
-          <div class="workbtn big">
+          <a href="#work" class="workbtn big">
             <div>
               <svg version="1.1" class="downArrow">
                 <path class="st0" d="M0.4,13.2L9.6,22l8.9-8.9" />
@@ -111,7 +112,7 @@
             </div>
 
             <div class="workTxt">Work</div>
-          </div>
+          </a>
 
           <div class="middlesocialwork">
             <ul class="socials bigsocial">
@@ -131,7 +132,7 @@
                 <a href="#"><i class="fab fa-facebook-square"></i></a>
               </li>
             </ul>
-            <div class="workbtn small">
+            <a href="#work" class="workbtn small">
               <div class="">
                 <svg version="1.1" class="downArrow">
                   <path class="st0" d="M0.4,13.2L9.6,22l8.9-8.9" />
@@ -140,9 +141,9 @@
               </div>
 
               <div class="workTxt">Work</div>
-            </div>
+            </a>
           </div>
-          <div class="workbtn big">
+          <a href="#work" class="workbtn big">
             <div>
               <svg version="1.1" class="downArrow">
                 <path class="st0" d="M0.4,13.2L9.6,22l8.9-8.9" />
@@ -151,13 +152,13 @@
             </div>
 
             <div class="workTxt">Work</div>
-          </div>
+          </a>
         </div>
       </section>
       <section id="projectCards">
-        <h1 class="nameHead">My recent work</h1>
+        <h1 class="nameHead recent">My recent work</h1>
         <hr />
-        <div class="cardContainer">
+        <div class="cardContainer" id="work">
           <div class="card">
             <div class="leftcard">
               <div class="imgplaceholder"></div>
@@ -199,7 +200,7 @@
                 text ever since the 1500s, when an unknown printer took a
                 standard dummy text.
               </p>
-              <div class="longGradient"></div>
+              <div class="longGradient2"></div>
               <div>
                 <ul class="skillsbar">
                   <li>css</li>
@@ -226,7 +227,7 @@
                 text ever since the 1500s, when an unknown printer took a
                 standard dummy text.
               </p>
-              <div class="longGradient"></div>
+              <div class="longGradient3"></div>
               <div>
                 <ul class="skillsbar">
                   <li>css</li>
@@ -254,7 +255,7 @@
                 text ever since the 1500s, when an unknown printer took a
                 standard dummy text.
               </p>
-              <div class="longGradient"></div>
+              <div class="longGradient4"></div>
               <div>
                 <ul class="skillsbar">
                   <li>css</li>
@@ -405,23 +406,26 @@
           </div>
         </form>
         <hr />
-        <ul class="socials">
-          <li>
-            <a href="#"><i class="fab fa-github"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fas fa-hand-peace"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-          </li>
-        </ul>
+        <div class="bottombar">
+          <ul class="socials">
+            <li>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-hand-peace"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+          </ul>
+          <p>emailhere@email.com</p>
+        </div>
       </footer>
     </main>
   </body>

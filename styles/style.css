@@ -130,7 +130,24 @@ form > * {
   right: 0;
   top: 50px;
 }
-
+.sideGradientrightfull {
+  width: 226px;
+  height: 226px;
+  background-image: url("/assets/images/circle2.png");
+  position: absolute;
+  right: 71px;
+  top: 300px;
+  background-size: cover;
+}
+.sideGradientleftfull {
+  width: 184px;
+  height: 184px;
+  background-image: url("/assets/images/circle1.png");
+  position: absolute;
+  left: 71px;
+  top: 100px;
+  background-size: cover;
+}
 .longGradient {
   width: 40px;
   height: 500px;
@@ -245,6 +262,9 @@ form > * {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+a:link {
+  text-decoration: none;
 }
 .workbtn {
   display: flex;
@@ -396,6 +416,11 @@ footer {
 .big {
   display: none;
 }
+.bottombar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media only screen and (min-width: 700px) {
   .big {
     display: inherit;
@@ -406,7 +431,7 @@ footer {
   .lists > li {
     width: 33%;
   }
-  .cardContainer {
+  .projectCards {
     margin: 0 50px;
   }
   .card:nth-child(odd) {
@@ -436,16 +461,29 @@ footer {
   .middlesocialwork > * {
     margin: 0;
   }
+  .recent {
+    margin-left: 20px;
+  }
+  .listshr {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media only screen and (max-width: 500px) {
   .content {
-    width: 100%;
-    padding: 0;
   }
   .socials {
-    width: 100%;
   }
   .socials > * {
     padding: 0;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .sideGradientrightfull {
+    right: 0px;
+  }
+  .sideGradientleftfull {
+    left: 0px;
   }
 }
