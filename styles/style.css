@@ -77,6 +77,13 @@ nav > ul > li {
 
 .navCollapse > .navName {
   margin-right: 20px;
+  transition: font-size 2s, line-height 2s, transform 2s;
+}
+
+.navName:hover {
+    font-size: 20px;
+    line-height: 22px;
+    transform: rotate(180deg);
 }
 
 .navIcon {
