@@ -433,7 +433,7 @@ footer {
   align-items: center;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1000px) {
   .big {
     display: inherit;
   }
