@@ -31,24 +31,37 @@
     <header>
       <nav>
         <ul>
-          <li class="navName">Portfolio</li>
-          <li class="navIcon">
-            <div></div>
-            <div></div>
-            <div></div>
+          <li class="navName">
+            <span class="small">John doe</span
+            ><span class="big">Portfolio</span>
+          </li>
+          <li>
+            <ul class="navCollapse">
+              <li class="navName big">
+                <span class="big">John doe</span
+                ><span class="small big">Portfolio</span>
+              </li>
+              <li class="navName big">About</li>
+              <li class="navName big">contact</li>
+              <li class="navIcon small">
+                <div></div>
+                <div></div>
+                <div></div>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
     </header>
     <main class="content">
-      <section>
+      <section class="txandlang">
         <div class="heads">
           <h1 class="nameHead">Timo Wester</h1>
           <h3 class="jobHead">software developer</h3>
-          <div class="sideGradientleft"></div>
+          <div class="sideGradientleft small"></div>
         </div>
 
-        <div>
+        <div class="headertxt">
           <p class="mainText">
             I can help you build a product , feature or website Look through
             some of my work and experience! If you like what you see and have a
@@ -87,65 +100,206 @@
             </ul>
           </li>
         </ul>
-        <hr />
+        <hr class="listshr" />
+        <div class="sideGradientrightfull big"></div>
+        <div class="sideGradientleftfull big"></div>
+        <div class="sideGradientright small"></div>
+        <div class="socialsandworkbutton">
+          <a href="#work" class="workbtn big">
+            <div>
+              <svg version="1.1" class="downArrow">
+                <path class="st0" d="M0.4,13.2L9.6,22l8.9-8.9" />
+                <path class="st0" d="M9.6,0.4v21.3" />
+              </svg>
+            </div>
 
-        <div class="sideGradientright"></div>
-        <ul class="socials">
-          <li>
-            <a href="#"><i class="fab fa-github"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fas fa-hand-peace"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-          </li>
-        </ul>
-        <a href="#projectCards" class="workBox">
-          <div>
-            <svg version="1.1" class="downArrow">
-              <path class="st0" d="M0.4,13.2L9.6,22l8.9-8.9" />
-              <path class="st0" d="M9.6,0.4v21.3" />
-            </svg>
+            <div class="workTxt">Work</div>
+          </a>
+
+          <div class="middlesocialwork">
+            <ul class="socials bigsocial">
+              <li>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-hand-peace"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+            </ul>
+            <a href="#work" class="workbtn small">
+              <div class="">
+                <svg version="1.1" class="downArrow">
+                  <path class="st0" d="M0.4,13.2L9.6,22l8.9-8.9" />
+                  <path class="st0" d="M9.6,0.4v21.3" />
+                </svg>
+              </div>
+
+              <div class="workTxt">Work</div>
+            </a>
           </div>
+          <a href="#work" class="workbtn big">
+            <div>
+              <svg version="1.1" class="downArrow">
+                <path class="st0" d="M0.4,13.2L9.6,22l8.9-8.9" />
+                <path class="st0" d="M9.6,0.4v21.3" />
+              </svg>
+            </div>
 
-          <div class="workTxt">Work</div>
-        </a>
+            <div class="workTxt">Work</div>
+          </a>
+        </div>
       </section>
       <section id="projectCards">
-        <h1 class="nameHead">My recent work</h1>
+        <h2 class="nameHead recent">My recent work</h2>
         <hr />
-        <div class="cardContainer">
+        <div class="cardContainer" id="work">
           <div class="card">
-            <div class="imgplaceholder"></div>
-            <h3 class="cardTxt">Multi-Post stories</h3>
-
-            <p class="cardText">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-            <div class="longGradient"></div>
-            <div>
-              <ul class="skillsbar">
-                <li>css</li>
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>ruby</li>
-              </ul>
+            <div class="leftcard">
+              <div class="imgplaceholder"></div>
             </div>
-            <div class="probtn">
-              <button class="projectbtn">see project</button>
+            <div class="rightcard">
+              <h3 class="cardTxt">Multi-Post stories</h3>
+
+              <p class="cardText">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+              <div class="longGradient"></div>
+              <div>
+                <ul class="skillsbar">
+                  <li>css</li>
+                  <li>html</li>
+                  <li>bootstrap</li>
+                  <li>ruby</li>
+                </ul>
+              </div>
+              <div class="probtn">
+                <button class="projectbtn">see project</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="leftcard">
+              <div class="imgplaceholder"></div>
+            </div>
+            <div class="rightcard">
+              <h3 class="cardTxt">Multi-Post stories</h3>
+
+              <p class="cardText">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+              <div class="longGradient2"></div>
+              <div>
+                <ul class="skillsbar">
+                  <li>css</li>
+                  <li>html</li>
+                  <li>bootstrap</li>
+                  <li>ruby</li>
+                </ul>
+              </div>
+              <div class="probtn">
+                <button class="projectbtn">see project</button>
+              </div>
             </div>
           </div>
           <div class="card">
+            <div class="leftcard">
+              <div class="imgplaceholder"></div>
+            </div>
+            <div class="rightcard">
+              <h3 class="cardTxt">Multi-Post stories</h3>
+
+              <p class="cardText">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+              <div class="longGradient3"></div>
+              <div>
+                <ul class="skillsbar">
+                  <li>css</li>
+                  <li>html</li>
+                  <li>bootstrap</li>
+                  <li>ruby</li>
+                </ul>
+              </div>
+              <div class="probtn">
+                <button class="projectbtn">see project</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="leftcard">
+              <div class="imgplaceholder"></div>
+            </div>
+            <div class="rightcard">
+              <h3 class="cardTxt">Multi-Post stories</h3>
+
+              <p class="cardText">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+              <div class="longGradient4"></div>
+              <div>
+                <ul class="skillsbar">
+                  <li>css</li>
+                  <li>html</li>
+                  <li>bootstrap</li>
+                  <li>ruby</li>
+                </ul>
+              </div>
+              <div class="probtn">
+                <button class="projectbtn">see project</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="leftcard">
+              <div class="imgplaceholder"></div>
+            </div>
+            <div class="rightcard">
+              <h3 class="cardTxt">Multi-Post stories</h3>
+
+              <p class="cardText">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+              <div class="longGradient"></div>
+              <div>
+                <ul class="skillsbar">
+                  <li>css</li>
+                  <li>html</li>
+                  <li>bootstrap</li>
+                  <li>ruby</li>
+                </ul>
+              </div>
+              <div class="probtn">
+                <button class="projectbtn">see project</button>
+              </div>
+            </div>
+          </div>
+          <!--           <div class="card">
             <div class="imgplaceholder"></div>
             <h3 class="cardTxt">Multi-Post stories</h3>
 
@@ -213,7 +367,7 @@
             <div class="probtn">
               <button class="projectbtn">see project</button>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
       <footer>
@@ -254,23 +408,26 @@
           </div>
         </form>
         <hr />
-        <ul class="socials">
-          <li>
-            <a href="#"><i class="fab fa-github"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fas fa-hand-peace"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-          </li>
-        </ul>
+        <div class="bottombar">
+          <ul class="socials">
+            <li>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-hand-peace"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+          </ul>
+          <p>emailhere@email.com</p>
+        </div>
       </footer>
     </main>
   </body>
