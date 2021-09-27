@@ -21,6 +21,8 @@ The Portfolio is a single page website, and includes a portfolio showcase and a 
 
 ## Live Demo
 
+The project is deployed using github pages.
+
 [Live Demo Link](https://timowest12.github.io/Portfolio/)
 
 ## Getting Started
