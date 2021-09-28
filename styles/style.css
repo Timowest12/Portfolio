@@ -6,7 +6,7 @@ ul {
 }
 
 html {
-  background-color: #3b30d9;
+  background-color: #191765;
   color: white;
   font-family: "Roboto", sans-serif;
 }
@@ -122,6 +122,11 @@ form > * {
   color: rgb(108, 108, 247);
   font-size: 350%;
   transition: 2s;
+}
+
+.nameHead:hover {
+  transform: scale(2);
+  color: white;
 }
 
 .sideGradientleft {
@@ -391,7 +396,7 @@ a:link {
 
 .projectbtn {
   font-family: "Inter", sans-serif;
-  background-color: #392de6;
+  background-color: #7d73fc;
   border: 0;
   padding: 15px;
   color: white;
