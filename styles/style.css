@@ -124,11 +124,6 @@ form > * {
   transition: 2s;
 }
 
-.nameHead:hover {
-  transform: scale(2);
-  color: white;
-}
-
 .sideGradientleft {
   left: -75px;
   width: 150px;
