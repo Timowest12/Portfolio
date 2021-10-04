@@ -1,3 +1,1 @@
-function mobileMenu() {
-  document.querySelector('.mobilemenu').css('display',"block")
-}
+function mobileMenu() { document.querySelector('.mobilemenu').classList.add('mobilemenuopen'); } function closemobilemenu() { document.querySelector('.mobilemenu').classList.remove('mobilemenuopen'); }

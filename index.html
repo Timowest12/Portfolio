@@ -58,16 +58,37 @@
               </li>
               <li class="navName big">About</li>
               <li class="navName big">contact</li>
-              <li onclick="mobileMenu()" class="navIcon small">
-                <div></div>
-                <div></div>
-                <div></div>
+              <li id="mobilemenuicon" class="navIcon small">
+                <ul onclick="mobileMenu()">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
-      <div class="mobilemenu">hello</div>
+      <div class="mobilemenu">
+        <ul>
+          <li>
+            <div class="mobilemenuleft"></div>
+            <div class="mobilemenuright"><img id="closemobilemenu" onclick="closemobilemenu()" src="./assets/images/closeicon.png" alt=""></div>
+          </li>
+          <li>
+            <div class="mobilemenuleft">Portfolio</div>
+            <div class="mobilemenuright"><img src="./assets/images/rightarrow.png" alt=""></div>
+          </li>
+          <li>
+            <div class="mobilemenuleft">About</div>
+            <div class="mobilemenuright"><img src="./assets/images/rightarrow.png" alt=""></div>
+          </li>
+          <li>
+            <div class="mobilemenuleft">Contact</div>
+            <div class="mobilemenuright"><img src="./assets/images/rightarrow.png" alt=""></div>
+          </li>
+        </ul>
+      </div>
     </header>
     <main class="content">
       <section class="txandlang">
