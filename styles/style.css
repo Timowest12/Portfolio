@@ -263,11 +263,16 @@ form > * {
   align-items: center;
 }
 
-.mobilemenu > ul > li {
+a:link {
+  text-decoration: none;
+}
+
+.mobilemenu > ul > li > a {
   padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: aliceblue;
 }
 
 .lists > li > ul > li {
@@ -285,10 +290,6 @@ form > * {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-a:link {
-  text-decoration: none;
 }
 
 .workbtn {

@@ -70,21 +70,31 @@
       </nav>
       <div class="mobilemenu">
         <ul>
+          
           <li>
+            <a>
             <div class="mobilemenuleft"></div>
-            <div id="closemobilemenu" class="mobilemenuright"><img src="./assets/images/closeicon.png" alt=""></div>
+            <div id="closemobilemenu" class="mobilemenuright closemobilemenu"><img src="./assets/images/closeicon.png" alt=""></div>
+          </a>
           </li>
+        
           <li>
+            <a class="closemobilemenu" href="#projectCards">
             <div class="mobilemenuleft">Portfolio</div>
             <div class="mobilemenuright"><img src="./assets/images/rightarrow.png" alt=""></div>
+          </a>
           </li>
           <li>
+            <a href="#projectCards">
             <div class="mobilemenuleft">About</div>
             <div class="mobilemenuright"><img src="./assets/images/rightarrow.png" alt=""></div>
+          </a>
           </li>
           <li>
+            <a href="#contact">
             <div class="mobilemenuleft">Contact</div>
             <div class="mobilemenuright"><img src="./assets/images/rightarrow.png" alt=""></div>
+          </a>
           </li>
         </ul>
       </div>
@@ -415,7 +425,7 @@
             to help with it
           </p>
         </div>
-        <form method="POST" action="https://formspree.io/f/mbjqwzrz">
+        <form id="contact" method="POST" action="https://formspree.io/f/mbjqwzrz">
           <input
             type="text"
             name="name"
