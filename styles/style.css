@@ -95,9 +95,22 @@ nav > ul > li {
   margin-right: 20px;
 }
 
+.lists > li {
+  width: 50%;
+  text-align: center;
+  text-align: left;
+}
+
 .navIcon > ul {
   display: flex;
   flex-direction: column;
+}
+
+.skillsbar > li {
+  line-height: 40px;
+  flex-basis: 25%;
+  text-align: center;
+  border-right: 1px solid #555;
 }
 
 .navIcon > ul > li {
@@ -250,17 +263,11 @@ form > * {
   align-items: center;
 }
 
-.skillsbar > li {
-  line-height: 40px;
-  flex-basis: 25%;
-  text-align: center;
-  border-right: 1px solid #555;
-}
-
-.lists > li {
-  width: 50%;
-  text-align: center;
-  text-align: left;
+.mobilemenu > ul > li {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .lists > li > ul > li {
@@ -457,9 +464,6 @@ footer {
   left: 0;
   display: none;
 }
-.mobilemenuicon{
-  height: fit-content;
-}
 
 .mobilemenuopen {
   display: block;
@@ -469,13 +473,6 @@ footer {
   padding: 10px;
   font-weight: 500;
   font-size: 24px;
-}
-
-.mobilemenu > ul > li {
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 @media only screen and (min-width: 1000px) {
