@@ -13,7 +13,6 @@ for (let project in projectsarray) {
     technologie = project.technologies[technologie];
     technologieshtml += `<li>${technologie}</li>`;
   }
-  console.log(technologieshtml);
   document.querySelector('#cardContainer').innerHTML += `<div class='card'><div class='leftcard'><div class='imgplaceholder'><img class='projectimg' src='/assets/images/${project.mainimage}'></div></div><div class='rightcard'><h3 class='cardTxt'>${project.name}</h3><p class='cardText'>${project.description}</p><div><ul class="skillsbar">${technologieshtml}</ul></div><div class='probtn'><button class='projectbtn'>see project</button></div></div></div>`;
 }
 function mobileMenu() {
