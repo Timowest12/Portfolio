@@ -57,17 +57,49 @@
               </li>
               <li class="navName big">About</li>
               <li class="navName big">contact</li>
-              <li class="navIcon small">
-                <div></div>
-                <div></div>
-                <div></div>
+              <li id="mobilemenuicon" class="navIcon small">
+                <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
+      <div class="mobilemenu">
+        <ul>
+          
+          <li>
+            <a>
+            <div class="mobilemenuleft"></div>
+            <div id="closemobilemenu" class="mobilemenuright closemobilemenu"><img src="./assets/images/closeicon.png" alt=""></div>
+          </a>
+          </li>
+        
+          <li>
+            <a class="navtoportfolio">
+            <div class="mobilemenuleft">Portfolio</div>
+            <div class="mobilemenuright"><img src="./assets/images/rightarrow.png" alt=""></div>
+          </a>
+          </li>
+          <li>
+            <a class="navtoabout">
+            <div class="mobilemenuleft">About</div>
+            <div class="mobilemenuright"><img src="./assets/images/rightarrow.png" alt=""></div>
+          </a>
+          </li>
+          <li>
+            <a class="navtocontact">
+            <div class="mobilemenuleft">Contact</div>
+            <div class="mobilemenuright"><img src="./assets/images/rightarrow.png" alt=""></div>
+          </a>
+          </li>
+        </ul>
+      </div>
     </header>
-    <main class="content">
+    <main id="about" class="content">
       <section class="txandlang">
         <div class="heads">
           <h1 class="nameHead">Timo Wester</h1>
@@ -393,7 +425,7 @@
             to help with it
           </p>
         </div>
-        <form method="POST" action="https://formspree.io/f/mbjqwzrz">
+        <form id="contact" method="POST" action="https://formspree.io/f/mbjqwzrz">
           <input
             type="text"
             name="name"
@@ -444,5 +476,6 @@
         </div>
       </footer>
     </main>
+    <script src="./scripts/js.js"></script>
   </body>
 </html>
