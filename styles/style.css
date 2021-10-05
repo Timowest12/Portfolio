@@ -29,6 +29,37 @@ body {
   min-height: 30vh;
 }
 
+#popup{
+  width: 90vw;
+  height: 90vh;
+  background-color:#070be460;
+  position: fixed;
+  top: 5vh;
+  left: 5vw;
+  color: black;
+  border: 1px solid white;
+  backdrop-filter: blur(10px);
+}
+.popclosed{
+  display: none;
+}
+.popupopen{
+display: block;
+}
+.popuptop{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color:white;
+}
+.popupTxt{
+  font-weight: 500;
+  font-size: 200%;
+}
+.popuptop > * {
+  padding: 40px;
+}
+
 .projectimg {
   width: 100%;
 }

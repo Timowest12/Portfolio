@@ -24,14 +24,10 @@ for (let project in projectsarray) {
     technologie = project.technologies[technologie];
     technologieshtml += `<li>${technologie}</li>`;
   }
-<<<<<<< HEAD
   console.log(index);
   document.querySelector(
     "#cardContainer"
   ).innerHTML += `<div class='card'><div class='leftcard'><div class='imgplaceholder'><img class='projectimg' src='/assets/images/${project.mainimage}'></div></div><div class='rightcard'><h3 class='cardTxt'>${project.name}</h3><p class='cardText'>${project.description}</p><div><ul class="skillsbar">${technologieshtml}</ul></div><div class='probtn'><button onclick='projectdetails(${index})' class='projectbtn'>see project</button></div></div></div>`;
-=======
-  document.querySelector('#cardContainer').innerHTML += `<div class='card'><div class='leftcard'><div class='imgplaceholder'><img class='projectimg' src='/assets/images/${project.mainimage}'></div></div><div class='rightcard'><h3 class='cardTxt'>${project.name}</h3><p class='cardText'>${project.description}</p><div><ul class="skillsbar">${technologieshtml}</ul></div><div class='probtn'><button class='projectbtn'>see project</button></div></div></div>`;
->>>>>>> fceefef9d0f17061de7044335e0a859ab661c81c
 }
 function mobileMenu() {
   document.querySelector(".mobilemenu").classList.add("mobilemenuopen");
@@ -52,7 +48,10 @@ function navtocontact() {
   closemobilemenu();
 }
 function projectdetails(index){
-console.log(projectsarray[index])
+  document.querySelector('#popup').style.display = 'block';
+ 
+console.log(projectsarray[index]);
+
 }
 document.querySelector("#mobilemenuicon").addEventListener("click", mobileMenu);
 document
