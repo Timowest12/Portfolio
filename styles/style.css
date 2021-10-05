@@ -28,9 +28,11 @@ body {
   justify-content: space-evenly;
   min-height: 30vh;
 }
-.projectimg{
+
+.projectimg {
   width: 100%;
 }
+
 .headertxt {
   max-width: 400px;
   margin-left: auto;
@@ -361,7 +363,6 @@ a:link {
 
 .imgplaceholder {
   background-image: url("../assets/images/placeholder.png");
-  
   width: 100%;
   margin-bottom: 15px;
 }
