@@ -464,6 +464,7 @@ footer {
   top: 0;
   left: 0;
   display: none;
+  transition: all ease-in 2s;
 }
 
 .mobilemenuopen {
