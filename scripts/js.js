@@ -2,10 +2,10 @@ var projectsarray = [
   {'name':'test','description':'test test test','mainimage':'project1img.png','technologies':['tech1','tech2','tech3'],'livelink':'test','sourcelink':'test'},
   {'name':'test2','description':'test2','mainimage':'project2img.png','technologies':['tech3','tech4','tech4'],'livelink':'test2','sourcelink':'test2'}
 ];
-for(project in projectsarray){
+for(var project in projectsarray){
   project = projectsarray[project];
   var technologieshtml = '';
-  for(technologie in project.technologies){
+  for(var technologie in project.technologies){
     technologie = project.technologies[technologie];
     technologieshtml += "<li>"+technologie+"</li>";
   }
