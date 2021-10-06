@@ -47,11 +47,23 @@ function navtocontact() {
   window.scrollTo(0, document.getElementById("contact").offsetTop);
   closemobilemenu();
 }
+
 function projectdetails(index){
+  let dataobj = projectsarray[index];
+  const popuptitletext = document.querySelector('.popupTxt');
+  const popupimg = document.querySelector('.popupimg');
+  const popupdescription = document.querySelector('.popupdescription');
+
+  popuptitletext.innerHTML = dataobj.name;
+  popupdescription.innerHTML = dataobj.description;
+  popupimg.src = 'assets/images/' + dataobj.mainimage;
   document.querySelector('#popup').style.display = 'block';
  
 console.log(projectsarray[index]);
 
+}
+function closepopup(){
+  document.querySelector('#popup').style.display = 'none';
 }
 document.querySelector("#mobilemenuicon").addEventListener("click", mobileMenu);
 document
@@ -59,6 +71,7 @@ document
   .addEventListener("click", navtoportfolio);
 document.querySelector(".navtoabout").addEventListener("click", navtoabout);
 document.querySelector(".navtocontact").addEventListener("click", navtocontact);
+document.querySelector(".popuptopright").addEventListener("click", closepopup);
 document
   .querySelector(".closemobilemenu")
   .addEventListener("click", closemobilemenu);
