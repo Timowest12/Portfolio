@@ -81,7 +81,6 @@ function projectdetails(index) {
 }
 function closepopup() {
   document.querySelector('#popup').style.display = 'none';
-  alert('hello');
 }
 document.querySelector('#mobilemenuicon').addEventListener('click', mobileMenu);
 document
