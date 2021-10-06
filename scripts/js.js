@@ -1,3 +1,17 @@
+const form = document.querySelector('#contact');
+const outputtext = document.querySelector('.outputtext');
+form.addEventListener('submit', (event) => {
+  let emailstring = document.getElementById('email').value;
+  //alert(emailstring);
+  if(emailstring == emailstring.toLowerCase()){
+    
+  }else{
+    outputtext.innerHTML = 'Please make sure all the email address is written only in lower case';
+    event.preventDefault();
+  }
+  
+});
+
 const projectsarray = [
   {
     name: 'Tonic',
@@ -94,6 +108,4 @@ document
   .querySelector('.closemobilemenu')
   .addEventListener('click', closemobilemenu);
 
-  const form = document.getElementById('contact');
-  form.addEventListener('submit', (event) => {
-});
+  
