@@ -93,3 +93,9 @@ document.querySelector('.popuptopright').addEventListener('click', closepopup);
 document
   .querySelector('.closemobilemenu')
   .addEventListener('click', closemobilemenu);
+
+  const form = document.getElementById('contact');
+  form.addEventListener('submit', (event) => {
+    alert('hello');
+    event.preventDefault();
+});
