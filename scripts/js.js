@@ -1,15 +1,12 @@
 const form = document.querySelector('#contact');
 const outputtext = document.querySelector('.outputtext');
 form.addEventListener('submit', (event) => {
-  let emailstring = document.getElementById('email').value;
-  //alert(emailstring);
-  if(emailstring == emailstring.toLowerCase()){
-    
-  }else{
+  const emailstring = document.getElementById('email').value;
+  // alert(emailstring);
+  if (emailstring !== emailstring.toLowerCase()) {
     outputtext.innerHTML = 'Please make sure all the email address is written only in lower case';
     event.preventDefault();
   }
-  
 });
 
 const projectsarray = [
@@ -107,5 +104,3 @@ document.querySelector('.popuptopright').addEventListener('click', closepopup);
 document
   .querySelector('.closemobilemenu')
   .addEventListener('click', closemobilemenu);
-
-  
