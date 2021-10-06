@@ -96,6 +96,5 @@ document
 
   const form = document.getElementById('contact');
   form.addEventListener('submit', (event) => {
-    alert('hello');
     event.preventDefault();
 });
