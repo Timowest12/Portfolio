@@ -4,7 +4,7 @@ form.addEventListener('submit', (event) => {
   const emailstring = document.getElementById('email').value;
   // alert(emailstring);
   if (emailstring !== emailstring.toLowerCase()) {
-    outputtext.innerHTML = 'Please make sure all the email address is written only in lower case';
+    outputtext.innerHTML = 'Please make sure the email address is written only in lower case';
     event.preventDefault();
   }
 });
