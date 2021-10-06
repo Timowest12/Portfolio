@@ -53,10 +53,15 @@ function projectdetails(index){
   const popuptitletext = document.querySelector('.popupTxt');
   const popupimg = document.querySelector('.popupimg');
   const popupdescription = document.querySelector('.popupdescription');
-
+  const livebutton = document.getElementById('livebtn');
+  const sourcebutton = document.getElementById('srcbtn');
+  
   popuptitletext.innerHTML = dataobj.name;
   popupdescription.innerHTML = dataobj.description;
   popupimg.src = 'assets/images/' + dataobj.mainimage;
+  livebutton.href = dataobj.livelink;
+  sourcebutton.href = dataobj.sourcelink;
+
   document.querySelector('#popup').style.display = 'block';
  
 console.log(projectsarray[index]);

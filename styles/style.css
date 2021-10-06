@@ -71,13 +71,22 @@ display: block;
 .projectimg {
   width: 100%;
 }
-.btnbar > button {
+.btnbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btnbar > a > button {
+  margin: 5px;
   padding:10px;
   background-color: #7D73FC;
   color: white;
   border: none;
   font-weight: 500;
   font-size: 12px;
+}
+.btnbar > a > button > img {
+  height: 20px;
 }
 .headertxt {
   max-width: 400px;
