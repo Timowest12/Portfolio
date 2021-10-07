@@ -1,3 +1,11 @@
+let name = document.getElementById('name').value;
+  let email = document.getElementById('email').value;
+  let message = document.getElementById('message').value;
+if(localStorage.hasOwnProperty('forminfo')){
+  let getforminfo = window.localStorage.getItem('forminfo');
+  getforminfo = JSON.parse(getforminfo);
+  alert(getforminfo.name);
+}
 const form = document.querySelector('#contact');
 const outputtext = document.querySelector('.outputtext');
 form.addEventListener('submit', (event) => {
@@ -7,6 +15,22 @@ form.addEventListener('submit', (event) => {
     outputtext.innerHTML = 'Please make sure the email address is written only in lower case';
     event.preventDefault();
   }
+});
+
+function updatestoragearray(){
+  let name = document.getElementById('name').value;
+  let email = document.getElementById('email').value;
+  let message = document.getElementById('message').value;
+  let storageobj = {"name":name,"email":email,"message":message};
+  let storagestring = JSON.stringify(storageobj);
+  console.log(storagestring);
+  localStorage.setItem('forminfo', storagestring);
+}
+const formelems = document.querySelectorAll('.formelem');
+formelems.forEach(function(elem) {
+  elem.addEventListener('input', function() {
+    updatestoragearray();
+  });
 });
 
 const projectsarray = [
