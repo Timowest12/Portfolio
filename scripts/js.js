@@ -1,4 +1,4 @@
-if (localStorage.hasOwnProperty('forminfo')) {
+if (localStorage.getItem('forminfo') !== null) {
   let getforminfo = window.localStorage.getItem('forminfo');
   getforminfo = JSON.parse(getforminfo);
   document.getElementById('name').value = getforminfo.name;
