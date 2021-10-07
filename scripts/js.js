@@ -4,19 +4,16 @@ if (localStorage.getItem('forminfo') !== null) {
   document.getElementById('name').value = getforminfo.name;
   document.getElementById('email').value = getforminfo.email;
   document.getElementById('message').value = getforminfo.message;
-  // alert(getforminfo.name);
 }
 const form = document.querySelector('#contact');
 const outputtext = document.querySelector('.outputtext');
 form.addEventListener('submit', (event) => {
   const emailstring = document.getElementById('email').value;
-  // alert(emailstring);
   if (emailstring !== emailstring.toLowerCase()) {
     outputtext.innerHTML = 'Please make sure the email address is written only in lower case';
     event.preventDefault();
   }
 });
-// To output the storage to the form.
 function updatestoragearray() {
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
@@ -25,7 +22,6 @@ function updatestoragearray() {
   const storagestring = JSON.stringify(storageobj);
   localStorage.setItem('forminfo', storagestring);
 }
-// Add eventLinstners to the form ellement.
 const formelems = document.querySelectorAll('.formelem');
 formelems.forEach((elem) => {
   elem.addEventListener('input', () => {
