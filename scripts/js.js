@@ -1,13 +1,10 @@
-const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const message = document.getElementById('message').value;
-if(localStorage.hasOwnProperty('forminfo')){
+if (localStorage.hasOwnProperty('forminfo')) {
   let getforminfo = window.localStorage.getItem('forminfo');
   getforminfo = JSON.parse(getforminfo);
   document.getElementById('name').value = getforminfo.name;
   document.getElementById('email').value = getforminfo.email;
   document.getElementById('message').value = getforminfo.message;
-  //alert(getforminfo.name);
+  // alert(getforminfo.name);
 }
 const form = document.querySelector('#contact');
 const outputtext = document.querySelector('.outputtext');
@@ -20,18 +17,18 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-function updatestoragearray(){
-  let name = document.getElementById('name').value;
-  let email = document.getElementById('email').value;
-  let message = document.getElementById('message').value;
-  let storageobj = {"name":name,"email":email,"message":message};
-  let storagestring = JSON.stringify(storageobj);
+function updatestoragearray() {
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+  const storageobj = { name, email, message };
+  const storagestring = JSON.stringify(storageobj);
   console.log(storagestring);
   localStorage.setItem('forminfo', storagestring);
 }
 const formelems = document.querySelectorAll('.formelem');
-formelems.forEach(function(elem) {
-  elem.addEventListener('input', function() {
+formelems.forEach((elem) => {
+  elem.addEventListener('input', () => {
     updatestoragearray();
   });
 });
