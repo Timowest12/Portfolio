@@ -16,17 +16,16 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
-  // To output the storage to the form.
+// To output the storage to the form.
 function updatestoragearray() {
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
   const message = document.getElementById('message').value;
   const storageobj = { name, email, message };
   const storagestring = JSON.stringify(storageobj);
-  console.log(storagestring);
   localStorage.setItem('forminfo', storagestring);
 }
-  //Add eventLinstners to the form ellement.
+// Add eventLinstners to the form ellement.
 const formelems = document.querySelectorAll('.formelem');
 formelems.forEach((elem) => {
   elem.addEventListener('input', () => {
