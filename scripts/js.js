@@ -1,10 +1,13 @@
-let name = document.getElementById('name').value;
-  let email = document.getElementById('email').value;
-  let message = document.getElementById('message').value;
+const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
 if(localStorage.hasOwnProperty('forminfo')){
   let getforminfo = window.localStorage.getItem('forminfo');
   getforminfo = JSON.parse(getforminfo);
-  alert(getforminfo.name);
+  document.getElementById('name').value = getforminfo.name;
+  document.getElementById('email').value = getforminfo.email;
+  document.getElementById('message').value = getforminfo.message;
+  //alert(getforminfo.name);
 }
 const form = document.querySelector('#contact');
 const outputtext = document.querySelector('.outputtext');
